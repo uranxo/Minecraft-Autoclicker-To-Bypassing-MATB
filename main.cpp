@@ -31,9 +31,11 @@ int main(){
 	std::cout<<"6. Task Manager"<<std::endl;
 	std::cout<<"7. CMD"<<std::endl;
 	
-	bool option_number;
+	int option_number;
+	char MATB_option_number;
+	std::cin>>option_number>>MATB_option_number;
 	
-	if(option_number == MATB) {
+	if(MATB_option_number == 'MATB') {
 		
 		
 		
