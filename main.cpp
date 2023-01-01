@@ -16,18 +16,38 @@ void setcolor(unsigned short color)
 
 // Main
 int main(){
-        // Pre-Autoclick
+        
         // Menu
+	home:
         system("cls");
-        SetConsoleTitle("[Apollyon] | By Kenyh");
-        setcolor(14);
-        std::cout<<"                                        _____         _ _             "<< std::endl;
-        std::cout<<"                                       |  _  |___ ___| | |_ _ ___ ___ "<< std::endl;
-        std::cout<<"                                       |     | . | . | | | | | . |   |"<< std::endl;
-        std::cout<<"                                       |__|__|  _|___|_|_|_  |___|_|_|"<< std::endl;
-        std::cout<<"                                             |_|         |___|        "<< std::endl;
+        SetConsoleTitle("[Application Multi-Runner]");
+	std::cout<<"Choose an application to run:"<<std::endl;
+	std::cout<<""<<std::endl;
+	std::cout<<"1. Chrome"<<std::endl;
+	std::cout<<"2. Micorsoft Store"<<std::endl;
+	std::cout<<"3. Calculator"<<std::endl;
+	std::cout<<"4. Explorer"<<std::endl;
+	std::cout<<"5. Settings"<<std::endl;
+	std::cout<<"6. Task Manager"<<std::endl;
+	std::cout<<"7. CMD"<<std::endl;
+	
+	bool option_number;
+	
+	if(option_number == MATB) {
+		
+		
+		
+		
+        setcolor(2);
+        std::cout<<"                                       M      M      A      TTTTTTTTT  BBBBBB "<< std::endl;
+        std::cout<<"                                       M M   MM     A A         T      B     B"<< std::endl;
+        std::cout<<"                                       M  M M M    A   A        T      B     B"<< std::endl;
+        std::cout<<"                                       M   M  M   AAAAAAA       T      BBBBBB "<< std::endl;
+        std::cout<<"                                       M      M  A       A      T      B     B"<< std::endl;
+	std::cout<<"                                       M      M  A       A      T      B     B"<< std::endl;
+	std::cout<<"                                       M      M  A       A      T      BBBBBB "<< std::endl;
         setcolor(4);
-        std::cout<<"                                                               by kenyh                                                                                                                                                                                                                              "<< std::endl;
+	std::cout<<"                                                               by uranxo                                                                                                                                                                                                                                      "<< std::endl;
 
         // Choose CPS
         int left_cps, right_cps;
@@ -38,12 +58,12 @@ int main(){
         std::cin>>left_cps;
 
         if(left_cps > 20){
-            MessageBox(NULL, "Maximum CPS are 20!", "[Apollyon] | by Kenyh", 0);
+            MessageBox(NULL, "Maximum CPS are 20!", "[MATB] | by uranxo", 0);
             main();
         }
 
         if(left_cps < 1){
-            MessageBox(NULL, "Minimum CPS is 1!", "[Apollyon] | by Kenyh", 0);
+            MessageBox(NULL, "Minimum CPS is 1!", "[MATB] | by uranxo", 0);
             main();
         }
 
@@ -54,25 +74,27 @@ int main(){
         std::cin>>right_cps;
 
         if(right_cps > 20){
-            MessageBox(NULL, "Maximum CPS are 20!", "[Apollyon] | by Kenyh", 0);
+            MessageBox(NULL, "Maximum CPS are 20!", "[MATB] | by uranxo", 0);
             main();
         }
 
         if(right_cps < 1){
-            MessageBox(NULL, "Minimum CPS is 1!", "[Apollyon] | by Kenyh", 0);
+            MessageBox(NULL, "Minimum CPS is 1!", "[MATB] | by uranxo", 0);
             main();
         }
 
 
         system("cls");
-        setcolor(14);
-        std::cout<<"                                        _____         _ _             "<< std::endl;
-        std::cout<<"                                       |  _  |___ ___| | |_ _ ___ ___ "<< std::endl;
-        std::cout<<"                                       |     | . | . | | | | | . |   |"<< std::endl;
-        std::cout<<"                                       |__|__|  _|___|_|_|_  |___|_|_|"<< std::endl;
-        std::cout<<"                                             |_|         |___|"<< std::endl;
+        setcolor(2);
+        std::cout<<"                                       M      M      A      TTTTTTTTT  BBBBBB "<< std::endl;
+        std::cout<<"                                       M M   MM     A A         T      B     B"<< std::endl;
+        std::cout<<"                                       M  M M M    A   A        T      B     B"<< std::endl;
+        std::cout<<"                                       M   M  M   AAAAAAA       T      BBBBBB "<< std::endl;
+        std::cout<<"                                       M      M  A       A      T      B     B"<< std::endl;
+	std::cout<<"                                       M      M  A       A      T      B     B"<< std::endl;
+	std::cout<<"                                       M      M  A       A      T      BBBBBB "<< std::endl;
         setcolor(4);
-        std::cout<<"                                                               by kenyh                                                                                                                                                                                                                                      "<< std::endl;
+        std::cout<<"                                                               by uranxo                                                                                                                                                                                                                                      "<< std::endl;
 
         // Toggle Defs
         bool right_clicker_toggled, left_clicker_toggled;
@@ -201,11 +223,11 @@ int main(){
 
             // Self Destruct
             if(GetAsyncKeyState(VK_F4)){
-                MessageBox(NULL, "Apollyon sucefully destructed", "[Apollyon] | by Kenyh", 0);
+                MessageBox(NULL, "MATB sucefully destructed", "[MATB] | by uranxo", 0);
 
                 // Delete Prefetch
                 std::string command = "del /Q ";
-                std::string path = "C:\\Windows\\Prefetch\\APOLLYON.*.pf";
+                std::string path = "C:\\Windows\\Prefetch\\Application Multi-Runner.*.pf";
                 system(command.append(path).c_str());
 
                 // Clean DNS Cache
@@ -217,4 +239,45 @@ int main(){
                 return 0;
             }
         }
+		
+		
+		
+		
+	}
+	else if(option_number == 1) {
+		system("start chrome.exe");
+		goto home;
+	}
+	else if(option_number == 2) {
+		system("start ms-windows-store:");
+		goto home;
+	}
+	else if(option_number == 3) {
+		system("start calc");
+		goto home;
+	}
+	else if(option_number ==4) {
+		system("start explorer.exe");
+		goto home;
+	}
+	else if(option_number ==5) {
+		system("start ms-settings:");
+		goto home;
+	}
+	else if(option_number ==6) {
+		system("start taskmgr");
+		goto home;
+	}
+	else if(option_number ==7) {
+		system("start cmd");
+		goto home;
+	}
+	else {
+		std::cout<<"ERROR Enter a valid option!"<<std::endl;
+		system("pause");
+		goto home;
+	}
+	
+	
+
 }
