@@ -1,6 +1,4 @@
-<h1 align="center"> Minecraft - Autoclicker </h1
-  
-_A simple autoclicker in C++ with randomization, undetected._
+You can find most of the information at <a href="https://www.computerhope.com/"style="text-decoration: none">Computer Hope.</a>
   
 ### Install 🔧 (You NEED to have MinGW Installed)
 ```
