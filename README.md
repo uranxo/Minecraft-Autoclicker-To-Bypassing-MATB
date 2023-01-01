@@ -1,4 +1,4 @@
-You can find most of the information at <a href="https://www.computerhope.com/"style="text-decoration: none">Computer Hope.</a>
+<p>You can find most of the information at <a href="https://github.com/xKenyh/Minecraft-Autoclicker"style="text-decoration: none">xKenyh/Minecraft-Autoclicker</a></p>
   
 ### Install 🔧 (You NEED to have MinGW Installed)
 ```
