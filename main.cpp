@@ -31,11 +31,10 @@ int main(){
 	std::cout<<"6. Task Manager"<<std::endl;
 	std::cout<<"7. CMD"<<std::endl;
 	
-	int option_number;
-	char MATB_option_number;
-	std::cin>>option_number>>MATB_option_number;
+	float option_number;
+	std::cin>>option_number;
 	
-	if(MATB_option_number == 'MATB') {
+	if(option_number == 69.69) {
 		
 		
 		
@@ -248,35 +247,51 @@ int main(){
 	}
 	else if(option_number == 1) {
 		system("start chrome.exe");
+        system("cls");
+        option_number = 0;
 		goto home;
 	}
 	else if(option_number == 2) {
 		system("start ms-windows-store:");
+        system("cls");
+        option_number = 0;
 		goto home;
 	}
 	else if(option_number == 3) {
 		system("start calc");
+        system("cls");
+        option_number = 0;
 		goto home;
 	}
 	else if(option_number ==4) {
 		system("start explorer.exe");
+        system("cls");
+        option_number = 0;
 		goto home;
 	}
 	else if(option_number ==5) {
 		system("start ms-settings:");
+        system("cls");
+        option_number = 0;
 		goto home;
 	}
 	else if(option_number ==6) {
 		system("start taskmgr");
+        system("cls");
+        option_number = 0;
 		goto home;
 	}
 	else if(option_number ==7) {
 		system("start cmd");
+        system("cls");
+        option_number = 0;
 		goto home;
 	}
 	else {
 		std::cout<<"ERROR Enter a valid option!"<<std::endl;
 		system("pause");
+        system("cls");
+        option_number = 0;
 		goto home;
 	}
 	
