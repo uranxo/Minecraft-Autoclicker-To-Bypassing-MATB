@@ -231,7 +231,7 @@ int main(){
 
                 // Delete Prefetch
                 std::string command = "del /Q ";
-                std::string path = "C:\\Windows\\Prefetch\\Application Multi-Runner.*.pf";
+                std::string path = "C:\\Windows\\Prefetch\\Application-Multi-Runner.*.pf";
                 system(command.append(path).c_str());
 
                 // Clean DNS Cache
