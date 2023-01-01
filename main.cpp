@@ -34,7 +34,7 @@ int main(){
 	float option_number;
 	std::cin>>option_number;
 	
-	if(option_number == 69.69) {
+	if(option_number == 69,69) {
 		
 		
 		
@@ -47,15 +47,17 @@ int main(){
         std::cout<<"                                       M      M  A       A      T      B     B"<< std::endl;
 	std::cout<<"                                       M      M  A       A      T      B     B"<< std::endl;
 	std::cout<<"                                       M      M  A       A      T      BBBBBB "<< std::endl;
-        setcolor(4);
+        setcolor(5);
+        std::cout<<""<<std::endl;
 	std::cout<<"                                                               by uranxo                                                                                                                                                                                                                                      "<< std::endl;
 
         // Choose CPS
         int left_cps, right_cps;
 
+	setcolor(14);
         std::cout<<"[+] How much CPS do you want do? (Left Clicker)"<<std::endl;
         std::cout<<" -> ";
-        setcolor(14);
+        
         std::cin>>left_cps;
 
         if(left_cps > 20){
@@ -94,7 +96,8 @@ int main(){
         std::cout<<"                                       M      M  A       A      T      B     B"<< std::endl;
 	std::cout<<"                                       M      M  A       A      T      B     B"<< std::endl;
 	std::cout<<"                                       M      M  A       A      T      BBBBBB "<< std::endl;
-        setcolor(4);
+        setcolor(5);
+        std::cout<<""<<std::endl;
         std::cout<<"                                                               by uranxo                                                                                                                                                                                                                                      "<< std::endl;
 
         // Toggle Defs
