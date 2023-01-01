@@ -1,18 +1,7 @@
+## Principal informations ❗
 <p>You can find most of the informations at <a href="https://github.com/xKenyh/Minecraft-Autoclicker"style="text-decoration: none">xKenyh/Minecraft-Autoclicker</a></p>
   
-### Install 🔧 (You NEED to have MinGW Installed)
-```
-g++ main.cpp
-```
-_Or open the executable_
-
-# Gui
-  <p align=center>
-      <image src="https://cdn.discordapp.com/attachments/852696157737713664/853676009214705677/unknown.png"> 
-  <p/>
-
-  
-## Usage 💻
+## Usage 🖱️
 ```
 Enter the CPS
 
