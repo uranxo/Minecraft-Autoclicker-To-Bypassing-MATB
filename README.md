@@ -8,7 +8,7 @@ When you open the exe you will find this:
 
 this menu is made to distract any staffers and to hide the autoclicker.
 
-<p>To access the real Autoclicker you have to write as option number: ``` 69.69 ``` and then you have to do the normal procedures of <a href="https://github.com/xKenyh/Minecraft-Autoclicker"style="text-decoration: none">the original repository</a>.</p>
+To access the real Autoclicker you have to write as option number: ``` 69.69 ``` <p> and then you have to do the normal procedures of <a href="https://github.com/xKenyh/Minecraft-Autoclicker"style="text-decoration: none">the original repository</a>.</p>
   
 ## Notes 📝
 * This is the first version, if you see a bug, please open an issue. ☕ 
