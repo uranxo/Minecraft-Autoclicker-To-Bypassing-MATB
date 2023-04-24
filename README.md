@@ -2,7 +2,7 @@
 <p>You can find most of the informations at <a href="https://github.com/xKenyh/Minecraft-Autoclicker"style="text-decoration: none">xKenyh/Minecraft-Autoclicker</a></p>
   
 ## Usage 🖱️
-When you open the exe you will find this:
+When you open the exe you will find this GUI:
 
 <img src="https://github.com/uranxo07/Minecraft-Autoclicker-To-Bypassing-MATB/blob/main/Images/home.png" alt="Home">
 
