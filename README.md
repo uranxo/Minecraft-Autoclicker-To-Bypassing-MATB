@@ -13,5 +13,5 @@ To access the real Autoclicker you have to write as option number:
 <p> and then you have to do the normal procedures of <a href="https://github.com/xKenyh/Minecraft-Autoclicker"style="text-decoration: none">the original repository</a>.</p>
   
 ## Notes 📝
-* Report autoclicker related bugs in the _original_ repository of the _original_ creator of the _original_ code not here (if they are not related to this, do them in the Issues tab)
+* Report autoclicker related bugs in the _original_ repository of the _original_ creator of the _original_ code not here (if they are not related to autoclicker but to the rest, do them in the this Issues tab)
 * If you have suggestions or tips please make them in the Discussions tab
